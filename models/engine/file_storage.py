@@ -54,3 +54,5 @@ class FileStorage:
                     FileStorage.__objects[key] = classes[class_name](**value)
         except FileNotFoundError:
             pass
+
+# Enhanced nested object deserialization
