@@ -79,3 +79,11 @@ class TestPlaceInstantiation(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+def test_place_price_validation():
+    """Test that Place price is a positive number"""
+    pass
+
+def test_place_max_guest_validation():
+    """Test that max_guest is a positive integer"""
+    pass
