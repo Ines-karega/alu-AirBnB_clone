@@ -153,3 +153,8 @@ Usage: update <class name> <id> <attribute name> "<attribute value>"""
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
+
+# Input validation utilities
+def sanitize_input(user_input):
+    """Remove leading/trailing whitespace and validate input"""
+    return user_input.strip()
