@@ -56,3 +56,10 @@ class FileStorage:
             pass
 
 # Enhanced nested object deserialization
+
+# Helper methods for storage operations
+def _serialize_object(obj):
+    return obj.to_dict()
+
+def _deserialize_object(data):
+    return data
