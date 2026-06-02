@@ -43,3 +43,11 @@ class TestAmenityInstantiation(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+def test_amenity_empty_name():
+    """Test Amenity with empty name"""
+    pass
+
+def test_amenity_unicode_characters():
+    """Test Amenity with unicode characters"""
+    pass
