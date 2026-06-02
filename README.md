@@ -66,3 +66,20 @@ $ echo "all" | ./console.py
 (hbnb) []
 (hbnb)
 ```
+
+## Advanced Usage
+
+### Creating Multiple Objects
+
+```bash
+(hbnb) create User
+(hbnb) create Place
+(hbnb) all
+```
+
+### Filtering by Class
+
+```bash
+(hbnb) all User
+(hbnb) show User <id>
+```
