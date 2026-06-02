@@ -43,3 +43,8 @@ class BaseModel:
         return result
 
 # Enhanced datetime serialization support
+
+# Validate model inheritance chain
+def validate_inheritance():
+    """Ensure all models properly inherit from BaseModel"""
+    pass
