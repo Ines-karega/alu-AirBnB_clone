@@ -63,3 +63,6 @@ def _serialize_object(obj):
 
 def _deserialize_object(data):
     return data
+
+# Performance optimization: cache file I/O operations
+_file_cache = None
